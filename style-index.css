@@ -6,6 +6,26 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  background-color: rgb(244, 194, 27);
+}
+
+button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  border: white;
+}
+
+.button-container {
+  background-color: rgb(8, 150, 98);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 ul {
   list-style: none;
   font-size: 8px;
@@ -41,14 +61,15 @@ nav {
   margin: 10px;
 }
 
-.button-container {
-  background-color: rgb(8, 150, 98);
-  padding: 10px;
-  display: flex;
-}
-
 form {
   color: black;
   background-color: rgb(244, 194, 27);
   padding: 10px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
 }
